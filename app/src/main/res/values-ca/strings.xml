@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TitleApp</string>
-    <string name="Title">Això és in títol editable</string>
+    <string name="title">Això és in títol editable</string>
     <string name="save">Guarda</string>
     <string name="edit">Edita</string>
 </resources>

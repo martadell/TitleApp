@@ -10,7 +10,7 @@
     tools:context="edu.upc.eseiaat.pma.titleapp.EditTitleActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edit_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -21,15 +21,16 @@
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Title"
+        android:text="@string/title"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="@string/save" />
+        android:text="@string/save"
+        android:onClick="saveTitle"/>
 </RelativeLayout>
